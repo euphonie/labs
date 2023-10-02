@@ -56,3 +56,4 @@ cipher = ShiftCipher(shift_count=3)
 assert cipher.encrypt("ciao") == "fldr", "Should be 'fldr'"
 assert cipher.decrypt("fldr") == "ciao", "Should be 'ciao'"
 assert cipher.decrypt("BHV BRX PDGH LW"), "Should be 'Yes you made it'"
+print(cipher.decrypt("BEEAKFYDJXUQYHYJIQRYHTYJIQFBQDUJIIKFUHCQD"))
